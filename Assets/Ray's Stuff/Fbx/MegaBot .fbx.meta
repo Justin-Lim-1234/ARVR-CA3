@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 7316373f250b21f4abf821c465e61685
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ankle.L
+    100002: Ankle.R
+    100004: Body
+    100006: Calf.L
+    100008: Calf.R
+    100010: Chest Piece
+    100012: Elbow.L
+    100014: Elbow.R
+    100016: Feet.L
+    100018: Feet.R
+    100020: FIst.L
+    100022: Fist.R
+    100024: Groin
+    100026: GroinJoints.L
+    100028: GroinJoints.R
+    100030: Head
+    100032: KneeCap.L
+    100034: KneeCap.R
+    100036: LowerArm.L
+    100038: LowerArm.R
+    100040: //RootNode
+    100042: Shoulder.L
+    100044: Shoulder.R
+    100046: Tigh.L
+    100048: Tigh.R
+    100050: UpperArm.L
+    100052: UpperArm.R
+    400000: Ankle.L
+    400002: Ankle.R
+    400004: Body
+    400006: Calf.L
+    400008: Calf.R
+    400010: Chest Piece
+    400012: Elbow.L
+    400014: Elbow.R
+    400016: Feet.L
+    400018: Feet.R
+    400020: FIst.L
+    400022: Fist.R
+    400024: Groin
+    400026: GroinJoints.L
+    400028: GroinJoints.R
+    400030: Head
+    400032: KneeCap.L
+    400034: KneeCap.R
+    400036: LowerArm.L
+    400038: LowerArm.R
+    400040: //RootNode
+    400042: Shoulder.L
+    400044: Shoulder.R
+    400046: Tigh.L
+    400048: Tigh.R
+    400050: UpperArm.L
+    400052: UpperArm.R
+    2100000: No Name
+    2300000: Ankle.L
+    2300002: Ankle.R
+    2300004: Body
+    2300006: Calf.L
+    2300008: Calf.R
+    2300010: Chest Piece
+    2300012: Elbow.L
+    2300014: Elbow.R
+    2300016: Feet.L
+    2300018: Feet.R
+    2300020: FIst.L
+    2300022: Fist.R
+    2300024: Groin
+    2300026: GroinJoints.L
+    2300028: GroinJoints.R
+    2300030: Head
+    2300032: KneeCap.L
+    2300034: KneeCap.R
+    2300036: LowerArm.L
+    2300038: LowerArm.R
+    2300040: Shoulder.L
+    2300042: Shoulder.R
+    2300044: Tigh.L
+    2300046: Tigh.R
+    2300048: UpperArm.L
+    2300050: UpperArm.R
+    3300000: Ankle.L
+    3300002: Ankle.R
+    3300004: Body
+    3300006: Calf.L
+    3300008: Calf.R
+    3300010: Chest Piece
+    3300012: Elbow.L
+    3300014: Elbow.R
+    3300016: Feet.L
+    3300018: Feet.R
+    3300020: FIst.L
+    3300022: Fist.R
+    3300024: Groin
+    3300026: GroinJoints.L
+    3300028: GroinJoints.R
+    3300030: Head
+    3300032: KneeCap.L
+    3300034: KneeCap.R
+    3300036: LowerArm.L
+    3300038: LowerArm.R
+    3300040: Shoulder.L
+    3300042: Shoulder.R
+    3300044: Tigh.L
+    3300046: Tigh.R
+    3300048: UpperArm.L
+    3300050: UpperArm.R
+    4300000: GroinJoints.L
+    4300002: Groin
+    4300004: Shoulder.L
+    4300006: UpperArm.L
+    4300008: Elbow.L
+    4300010: LowerArm.L
+    4300012: FIst.L
+    4300014: Body
+    4300016: Head
+    4300018: Chest Piece
+    4300020: Feet.L
+    4300022: Ankle.L
+    4300024: Calf.L
+    4300026: KneeCap.L
+    4300028: Tigh.L
+    4300030: Fist.R
+    4300032: Shoulder.R
+    4300034: UpperArm.R
+    4300036: Elbow.R
+    4300038: LowerArm.R
+    4300040: GroinJoints.R
+    4300042: Tigh.R
+    4300044: KneeCap.R
+    4300046: Calf.R
+    4300048: Feet.R
+    4300050: Ankle.R
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
