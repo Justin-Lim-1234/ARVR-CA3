@@ -1,0 +1,1682 @@
+fileFormatVersion: 2
+guid: 0d000980ceb910a4e90758c52405f71b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Concrete
+    100002: Curbs
+    100004: Curbs_MeshPart0
+    100006: Curbs_MeshPart1
+    100008: FacadeTexture
+    100010: FacadeTexture_1
+    100012: FacadeTexture_10
+    100014: FacadeTexture_11
+    100016: FacadeTexture_12
+    100018: FacadeTexture_13
+    100020: FacadeTexture_14
+    100022: FacadeTexture_15
+    100024: FacadeTexture_16
+    100026: FacadeTexture_17
+    100028: FacadeTexture_18
+    100030: FacadeTexture_19
+    100032: FacadeTexture_2
+    100034: FacadeTexture_20
+    100036: FacadeTexture_21
+    100038: FacadeTexture_22
+    100040: FacadeTexture_23
+    100042: FacadeTexture_24
+    100044: FacadeTexture_25
+    100046: FacadeTexture_26
+    100048: FacadeTexture_27
+    100050: FacadeTexture_28
+    100052: FacadeTexture_3
+    100054: FacadeTexture_4
+    100056: FacadeTexture_5
+    100058: FacadeTexture_6
+    100060: FacadeTexture_7
+    100062: FacadeTexture_8
+    100064: FacadeTexture_9
+    100066: FlatRoofTexture
+    100068: FlatRoofTexture_1
+    100070: FlatRoofTexture_2
+    100072: FlatRoofTexture_3
+    100074: FlatRoofTexture_4
+    100076: FlatRoofTexture_5
+    100078: FlatRoofTexture_6
+    100080: FlatRoofTexture_7
+    100082: FlatRoofTexture_8
+    100084: FlatRoofTexture_9
+    100086: //RootNode
+    100088: ParkingLot
+    100090: ParkingLot_1
+    100092: ParkingLot_10
+    100094: ParkingLot_11
+    100096: ParkingLot_12
+    100098: ParkingLot_13
+    100100: ParkingLot_14
+    100102: ParkingLot_15
+    100104: ParkingLot_16
+    100106: ParkingLot_17
+    100108: ParkingLot_18
+    100110: ParkingLot_19
+    100112: ParkingLot_2
+    100114: ParkingLot_20
+    100116: ParkingLot_21
+    100118: ParkingLot_22
+    100120: ParkingLot_23
+    100122: ParkingLot_24
+    100124: ParkingLot_25
+    100126: ParkingLot_26
+    100128: ParkingLot_27
+    100130: ParkingLot_28
+    100132: ParkingLot_29
+    100134: ParkingLot_3
+    100136: ParkingLot_4
+    100138: ParkingLot_5
+    100140: ParkingLot_6
+    100142: ParkingLot_7
+    100144: ParkingLot_8
+    100146: ParkingLot_9
+    100148: Pavement
+    100150: RoofPlane
+    100152: RoofPlane_1
+    100154: RoofPlane_10
+    100156: RoofPlane_11
+    100158: RoofPlane_12
+    100160: RoofPlane_13
+    100162: RoofPlane_14
+    100164: RoofPlane_15
+    100166: RoofPlane_16
+    100168: RoofPlane_17
+    100170: RoofPlane_18
+    100172: RoofPlane_19
+    100174: RoofPlane_2
+    100176: RoofPlane_20
+    100178: RoofPlane_21
+    100180: RoofPlane_22
+    100182: RoofPlane_23
+    100184: RoofPlane_24
+    100186: RoofPlane_25
+    100188: RoofPlane_26
+    100190: RoofPlane_27
+    100192: RoofPlane_28
+    100194: RoofPlane_29
+    100196: RoofPlane_3
+    100198: RoofPlane_30
+    100200: RoofPlane_31
+    100202: RoofPlane_32
+    100204: RoofPlane_33
+    100206: RoofPlane_34
+    100208: RoofPlane_35
+    100210: RoofPlane_36
+    100212: RoofPlane_37
+    100214: RoofPlane_38
+    100216: RoofPlane_39
+    100218: RoofPlane_4
+    100220: RoofPlane_40
+    100222: RoofPlane_41
+    100224: RoofPlane_42
+    100226: RoofPlane_43
+    100228: RoofPlane_44
+    100230: RoofPlane_45
+    100232: RoofPlane_46
+    100234: RoofPlane_47
+    100236: RoofPlane_48
+    100238: RoofPlane_49
+    100240: RoofPlane_5
+    100242: RoofPlane_50
+    100244: RoofPlane_51
+    100246: RoofPlane_52
+    100248: RoofPlane_53
+    100250: RoofPlane_6
+    100252: RoofPlane_7
+    100254: RoofPlane_8
+    100256: RoofPlane_9
+    100258: Street
+    100260: YardGround
+    100262: YardGround_1
+    100264: YardGround_10
+    100266: YardGround_11
+    100268: YardGround_12
+    100270: YardGround_13
+    100272: YardGround_14
+    100274: YardGround_15
+    100276: YardGround_16
+    100278: YardGround_17
+    100280: YardGround_18
+    100282: YardGround_19
+    100284: YardGround_2
+    100286: YardGround_20
+    100288: YardGround_21
+    100290: YardGround_22
+    100292: YardGround_23
+    100294: YardGround_24
+    100296: YardGround_25
+    100298: YardGround_26
+    100300: YardGround_27
+    100302: YardGround_28
+    100304: YardGround_29
+    100306: YardGround_3
+    100308: YardGround_30
+    100310: YardGround_4
+    100312: YardGround_5
+    100314: YardGround_6
+    100316: YardGround_7
+    100318: YardGround_8
+    100320: YardGround_9
+    400000: Concrete
+    400002: Curbs
+    400004: Curbs_MeshPart0
+    400006: Curbs_MeshPart1
+    400008: FacadeTexture
+    400010: FacadeTexture_1
+    400012: FacadeTexture_10
+    400014: FacadeTexture_11
+    400016: FacadeTexture_12
+    400018: FacadeTexture_13
+    400020: FacadeTexture_14
+    400022: FacadeTexture_15
+    400024: FacadeTexture_16
+    400026: FacadeTexture_17
+    400028: FacadeTexture_18
+    400030: FacadeTexture_19
+    400032: FacadeTexture_2
+    400034: FacadeTexture_20
+    400036: FacadeTexture_21
+    400038: FacadeTexture_22
+    400040: FacadeTexture_23
+    400042: FacadeTexture_24
+    400044: FacadeTexture_25
+    400046: FacadeTexture_26
+    400048: FacadeTexture_27
+    400050: FacadeTexture_28
+    400052: FacadeTexture_3
+    400054: FacadeTexture_4
+    400056: FacadeTexture_5
+    400058: FacadeTexture_6
+    400060: FacadeTexture_7
+    400062: FacadeTexture_8
+    400064: FacadeTexture_9
+    400066: FlatRoofTexture
+    400068: FlatRoofTexture_1
+    400070: FlatRoofTexture_2
+    400072: FlatRoofTexture_3
+    400074: FlatRoofTexture_4
+    400076: FlatRoofTexture_5
+    400078: FlatRoofTexture_6
+    400080: FlatRoofTexture_7
+    400082: FlatRoofTexture_8
+    400084: FlatRoofTexture_9
+    400086: //RootNode
+    400088: ParkingLot
+    400090: ParkingLot_1
+    400092: ParkingLot_10
+    400094: ParkingLot_11
+    400096: ParkingLot_12
+    400098: ParkingLot_13
+    400100: ParkingLot_14
+    400102: ParkingLot_15
+    400104: ParkingLot_16
+    400106: ParkingLot_17
+    400108: ParkingLot_18
+    400110: ParkingLot_19
+    400112: ParkingLot_2
+    400114: ParkingLot_20
+    400116: ParkingLot_21
+    400118: ParkingLot_22
+    400120: ParkingLot_23
+    400122: ParkingLot_24
+    400124: ParkingLot_25
+    400126: ParkingLot_26
+    400128: ParkingLot_27
+    400130: ParkingLot_28
+    400132: ParkingLot_29
+    400134: ParkingLot_3
+    400136: ParkingLot_4
+    400138: ParkingLot_5
+    400140: ParkingLot_6
+    400142: ParkingLot_7
+    400144: ParkingLot_8
+    400146: ParkingLot_9
+    400148: Pavement
+    400150: RoofPlane
+    400152: RoofPlane_1
+    400154: RoofPlane_10
+    400156: RoofPlane_11
+    400158: RoofPlane_12
+    400160: RoofPlane_13
+    400162: RoofPlane_14
+    400164: RoofPlane_15
+    400166: RoofPlane_16
+    400168: RoofPlane_17
+    400170: RoofPlane_18
+    400172: RoofPlane_19
+    400174: RoofPlane_2
+    400176: RoofPlane_20
+    400178: RoofPlane_21
+    400180: RoofPlane_22
+    400182: RoofPlane_23
+    400184: RoofPlane_24
+    400186: RoofPlane_25
+    400188: RoofPlane_26
+    400190: RoofPlane_27
+    400192: RoofPlane_28
+    400194: RoofPlane_29
+    400196: RoofPlane_3
+    400198: RoofPlane_30
+    400200: RoofPlane_31
+    400202: RoofPlane_32
+    400204: RoofPlane_33
+    400206: RoofPlane_34
+    400208: RoofPlane_35
+    400210: RoofPlane_36
+    400212: RoofPlane_37
+    400214: RoofPlane_38
+    400216: RoofPlane_39
+    400218: RoofPlane_4
+    400220: RoofPlane_40
+    400222: RoofPlane_41
+    400224: RoofPlane_42
+    400226: RoofPlane_43
+    400228: RoofPlane_44
+    400230: RoofPlane_45
+    400232: RoofPlane_46
+    400234: RoofPlane_47
+    400236: RoofPlane_48
+    400238: RoofPlane_49
+    400240: RoofPlane_5
+    400242: RoofPlane_50
+    400244: RoofPlane_51
+    400246: RoofPlane_52
+    400248: RoofPlane_53
+    400250: RoofPlane_6
+    400252: RoofPlane_7
+    400254: RoofPlane_8
+    400256: RoofPlane_9
+    400258: Street
+    400260: YardGround
+    400262: YardGround_1
+    400264: YardGround_10
+    400266: YardGround_11
+    400268: YardGround_12
+    400270: YardGround_13
+    400272: YardGround_14
+    400274: YardGround_15
+    400276: YardGround_16
+    400278: YardGround_17
+    400280: YardGround_18
+    400282: YardGround_19
+    400284: YardGround_2
+    400286: YardGround_20
+    400288: YardGround_21
+    400290: YardGround_22
+    400292: YardGround_23
+    400294: YardGround_24
+    400296: YardGround_25
+    400298: YardGround_26
+    400300: YardGround_27
+    400302: YardGround_28
+    400304: YardGround_29
+    400306: YardGround_3
+    400308: YardGround_30
+    400310: YardGround_4
+    400312: YardGround_5
+    400314: YardGround_6
+    400316: YardGround_7
+    400318: YardGround_8
+    400320: YardGround_9
+    2300000: Concrete
+    2300002: Curbs_MeshPart0
+    2300004: Curbs_MeshPart1
+    2300006: FacadeTexture
+    2300008: FacadeTexture_1
+    2300010: FacadeTexture_10
+    2300012: FacadeTexture_11
+    2300014: FacadeTexture_12
+    2300016: FacadeTexture_13
+    2300018: FacadeTexture_14
+    2300020: FacadeTexture_15
+    2300022: FacadeTexture_16
+    2300024: FacadeTexture_17
+    2300026: FacadeTexture_18
+    2300028: FacadeTexture_19
+    2300030: FacadeTexture_2
+    2300032: FacadeTexture_20
+    2300034: FacadeTexture_21
+    2300036: FacadeTexture_22
+    2300038: FacadeTexture_23
+    2300040: FacadeTexture_24
+    2300042: FacadeTexture_25
+    2300044: FacadeTexture_26
+    2300046: FacadeTexture_27
+    2300048: FacadeTexture_28
+    2300050: FacadeTexture_3
+    2300052: FacadeTexture_4
+    2300054: FacadeTexture_5
+    2300056: FacadeTexture_6
+    2300058: FacadeTexture_7
+    2300060: FacadeTexture_8
+    2300062: FacadeTexture_9
+    2300064: FlatRoofTexture
+    2300066: FlatRoofTexture_1
+    2300068: FlatRoofTexture_2
+    2300070: FlatRoofTexture_3
+    2300072: FlatRoofTexture_4
+    2300074: FlatRoofTexture_5
+    2300076: FlatRoofTexture_6
+    2300078: FlatRoofTexture_7
+    2300080: FlatRoofTexture_8
+    2300082: FlatRoofTexture_9
+    2300084: ParkingLot
+    2300086: ParkingLot_1
+    2300088: ParkingLot_10
+    2300090: ParkingLot_11
+    2300092: ParkingLot_12
+    2300094: ParkingLot_13
+    2300096: ParkingLot_14
+    2300098: ParkingLot_15
+    2300100: ParkingLot_16
+    2300102: ParkingLot_17
+    2300104: ParkingLot_18
+    2300106: ParkingLot_19
+    2300108: ParkingLot_2
+    2300110: ParkingLot_20
+    2300112: ParkingLot_21
+    2300114: ParkingLot_22
+    2300116: ParkingLot_23
+    2300118: ParkingLot_24
+    2300120: ParkingLot_25
+    2300122: ParkingLot_26
+    2300124: ParkingLot_27
+    2300126: ParkingLot_28
+    2300128: ParkingLot_29
+    2300130: ParkingLot_3
+    2300132: ParkingLot_4
+    2300134: ParkingLot_5
+    2300136: ParkingLot_6
+    2300138: ParkingLot_7
+    2300140: ParkingLot_8
+    2300142: ParkingLot_9
+    2300144: Pavement
+    2300146: RoofPlane
+    2300148: RoofPlane_1
+    2300150: RoofPlane_10
+    2300152: RoofPlane_11
+    2300154: RoofPlane_12
+    2300156: RoofPlane_13
+    2300158: RoofPlane_14
+    2300160: RoofPlane_15
+    2300162: RoofPlane_16
+    2300164: RoofPlane_17
+    2300166: RoofPlane_18
+    2300168: RoofPlane_19
+    2300170: RoofPlane_2
+    2300172: RoofPlane_20
+    2300174: RoofPlane_21
+    2300176: RoofPlane_22
+    2300178: RoofPlane_23
+    2300180: RoofPlane_24
+    2300182: RoofPlane_25
+    2300184: RoofPlane_26
+    2300186: RoofPlane_27
+    2300188: RoofPlane_28
+    2300190: RoofPlane_29
+    2300192: RoofPlane_3
+    2300194: RoofPlane_30
+    2300196: RoofPlane_31
+    2300198: RoofPlane_32
+    2300200: RoofPlane_33
+    2300202: RoofPlane_34
+    2300204: RoofPlane_35
+    2300206: RoofPlane_36
+    2300208: RoofPlane_37
+    2300210: RoofPlane_38
+    2300212: RoofPlane_39
+    2300214: RoofPlane_4
+    2300216: RoofPlane_40
+    2300218: RoofPlane_41
+    2300220: RoofPlane_42
+    2300222: RoofPlane_43
+    2300224: RoofPlane_44
+    2300226: RoofPlane_45
+    2300228: RoofPlane_46
+    2300230: RoofPlane_47
+    2300232: RoofPlane_48
+    2300234: RoofPlane_49
+    2300236: RoofPlane_5
+    2300238: RoofPlane_50
+    2300240: RoofPlane_51
+    2300242: RoofPlane_52
+    2300244: RoofPlane_53
+    2300246: RoofPlane_6
+    2300248: RoofPlane_7
+    2300250: RoofPlane_8
+    2300252: RoofPlane_9
+    2300254: Street
+    2300256: YardGround
+    2300258: YardGround_1
+    2300260: YardGround_10
+    2300262: YardGround_11
+    2300264: YardGround_12
+    2300266: YardGround_13
+    2300268: YardGround_14
+    2300270: YardGround_15
+    2300272: YardGround_16
+    2300274: YardGround_17
+    2300276: YardGround_18
+    2300278: YardGround_19
+    2300280: YardGround_2
+    2300282: YardGround_20
+    2300284: YardGround_21
+    2300286: YardGround_22
+    2300288: YardGround_23
+    2300290: YardGround_24
+    2300292: YardGround_25
+    2300294: YardGround_26
+    2300296: YardGround_27
+    2300298: YardGround_28
+    2300300: YardGround_29
+    2300302: YardGround_3
+    2300304: YardGround_30
+    2300306: YardGround_4
+    2300308: YardGround_5
+    2300310: YardGround_6
+    2300312: YardGround_7
+    2300314: YardGround_8
+    2300316: YardGround_9
+    3300000: Concrete
+    3300002: Curbs_MeshPart0
+    3300004: Curbs_MeshPart1
+    3300006: FacadeTexture
+    3300008: FacadeTexture_1
+    3300010: FacadeTexture_10
+    3300012: FacadeTexture_11
+    3300014: FacadeTexture_12
+    3300016: FacadeTexture_13
+    3300018: FacadeTexture_14
+    3300020: FacadeTexture_15
+    3300022: FacadeTexture_16
+    3300024: FacadeTexture_17
+    3300026: FacadeTexture_18
+    3300028: FacadeTexture_19
+    3300030: FacadeTexture_2
+    3300032: FacadeTexture_20
+    3300034: FacadeTexture_21
+    3300036: FacadeTexture_22
+    3300038: FacadeTexture_23
+    3300040: FacadeTexture_24
+    3300042: FacadeTexture_25
+    3300044: FacadeTexture_26
+    3300046: FacadeTexture_27
+    3300048: FacadeTexture_28
+    3300050: FacadeTexture_3
+    3300052: FacadeTexture_4
+    3300054: FacadeTexture_5
+    3300056: FacadeTexture_6
+    3300058: FacadeTexture_7
+    3300060: FacadeTexture_8
+    3300062: FacadeTexture_9
+    3300064: FlatRoofTexture
+    3300066: FlatRoofTexture_1
+    3300068: FlatRoofTexture_2
+    3300070: FlatRoofTexture_3
+    3300072: FlatRoofTexture_4
+    3300074: FlatRoofTexture_5
+    3300076: FlatRoofTexture_6
+    3300078: FlatRoofTexture_7
+    3300080: FlatRoofTexture_8
+    3300082: FlatRoofTexture_9
+    3300084: ParkingLot
+    3300086: ParkingLot_1
+    3300088: ParkingLot_10
+    3300090: ParkingLot_11
+    3300092: ParkingLot_12
+    3300094: ParkingLot_13
+    3300096: ParkingLot_14
+    3300098: ParkingLot_15
+    3300100: ParkingLot_16
+    3300102: ParkingLot_17
+    3300104: ParkingLot_18
+    3300106: ParkingLot_19
+    3300108: ParkingLot_2
+    3300110: ParkingLot_20
+    3300112: ParkingLot_21
+    3300114: ParkingLot_22
+    3300116: ParkingLot_23
+    3300118: ParkingLot_24
+    3300120: ParkingLot_25
+    3300122: ParkingLot_26
+    3300124: ParkingLot_27
+    3300126: ParkingLot_28
+    3300128: ParkingLot_29
+    3300130: ParkingLot_3
+    3300132: ParkingLot_4
+    3300134: ParkingLot_5
+    3300136: ParkingLot_6
+    3300138: ParkingLot_7
+    3300140: ParkingLot_8
+    3300142: ParkingLot_9
+    3300144: Pavement
+    3300146: RoofPlane
+    3300148: RoofPlane_1
+    3300150: RoofPlane_10
+    3300152: RoofPlane_11
+    3300154: RoofPlane_12
+    3300156: RoofPlane_13
+    3300158: RoofPlane_14
+    3300160: RoofPlane_15
+    3300162: RoofPlane_16
+    3300164: RoofPlane_17
+    3300166: RoofPlane_18
+    3300168: RoofPlane_19
+    3300170: RoofPlane_2
+    3300172: RoofPlane_20
+    3300174: RoofPlane_21
+    3300176: RoofPlane_22
+    3300178: RoofPlane_23
+    3300180: RoofPlane_24
+    3300182: RoofPlane_25
+    3300184: RoofPlane_26
+    3300186: RoofPlane_27
+    3300188: RoofPlane_28
+    3300190: RoofPlane_29
+    3300192: RoofPlane_3
+    3300194: RoofPlane_30
+    3300196: RoofPlane_31
+    3300198: RoofPlane_32
+    3300200: RoofPlane_33
+    3300202: RoofPlane_34
+    3300204: RoofPlane_35
+    3300206: RoofPlane_36
+    3300208: RoofPlane_37
+    3300210: RoofPlane_38
+    3300212: RoofPlane_39
+    3300214: RoofPlane_4
+    3300216: RoofPlane_40
+    3300218: RoofPlane_41
+    3300220: RoofPlane_42
+    3300222: RoofPlane_43
+    3300224: RoofPlane_44
+    3300226: RoofPlane_45
+    3300228: RoofPlane_46
+    3300230: RoofPlane_47
+    3300232: RoofPlane_48
+    3300234: RoofPlane_49
+    3300236: RoofPlane_5
+    3300238: RoofPlane_50
+    3300240: RoofPlane_51
+    3300242: RoofPlane_52
+    3300244: RoofPlane_53
+    3300246: RoofPlane_6
+    3300248: RoofPlane_7
+    3300250: RoofPlane_8
+    3300252: RoofPlane_9
+    3300254: Street
+    3300256: YardGround
+    3300258: YardGround_1
+    3300260: YardGround_10
+    3300262: YardGround_11
+    3300264: YardGround_12
+    3300266: YardGround_13
+    3300268: YardGround_14
+    3300270: YardGround_15
+    3300272: YardGround_16
+    3300274: YardGround_17
+    3300276: YardGround_18
+    3300278: YardGround_19
+    3300280: YardGround_2
+    3300282: YardGround_20
+    3300284: YardGround_21
+    3300286: YardGround_22
+    3300288: YardGround_23
+    3300290: YardGround_24
+    3300292: YardGround_25
+    3300294: YardGround_26
+    3300296: YardGround_27
+    3300298: YardGround_28
+    3300300: YardGround_29
+    3300302: YardGround_3
+    3300304: YardGround_30
+    3300306: YardGround_4
+    3300308: YardGround_5
+    3300310: YardGround_6
+    3300312: YardGround_7
+    3300314: YardGround_8
+    3300316: YardGround_9
+    4300000: Concrete
+    4300002: Curbs_MeshPart0
+    4300004: Curbs_MeshPart1
+    4300006: FacadeTexture
+    4300008: FacadeTexture_1
+    4300010: FacadeTexture_10
+    4300012: FacadeTexture_11
+    4300014: FacadeTexture_12
+    4300016: FacadeTexture_13
+    4300018: FacadeTexture_14
+    4300020: FacadeTexture_15
+    4300022: FacadeTexture_16
+    4300024: FacadeTexture_17
+    4300026: FacadeTexture_18
+    4300028: FacadeTexture_19
+    4300030: FacadeTexture_2
+    4300032: FacadeTexture_20
+    4300034: FacadeTexture_21
+    4300036: FacadeTexture_22
+    4300038: FacadeTexture_23
+    4300040: FacadeTexture_24
+    4300042: FacadeTexture_25
+    4300044: FacadeTexture_26
+    4300046: FacadeTexture_27
+    4300048: FacadeTexture_28
+    4300050: FacadeTexture_3
+    4300052: FacadeTexture_4
+    4300054: FacadeTexture_5
+    4300056: FacadeTexture_6
+    4300058: FacadeTexture_7
+    4300060: FacadeTexture_8
+    4300062: FacadeTexture_9
+    4300064: FlatRoofTexture
+    4300066: FlatRoofTexture_1
+    4300068: FlatRoofTexture_2
+    4300070: FlatRoofTexture_3
+    4300072: FlatRoofTexture_4
+    4300074: FlatRoofTexture_5
+    4300076: FlatRoofTexture_6
+    4300078: FlatRoofTexture_7
+    4300080: FlatRoofTexture_8
+    4300082: FlatRoofTexture_9
+    4300084: ParkingLot
+    4300086: ParkingLot_1
+    4300088: ParkingLot_10
+    4300090: ParkingLot_11
+    4300092: ParkingLot_12
+    4300094: ParkingLot_13
+    4300096: ParkingLot_14
+    4300098: ParkingLot_15
+    4300100: ParkingLot_16
+    4300102: ParkingLot_17
+    4300104: ParkingLot_18
+    4300106: ParkingLot_19
+    4300108: ParkingLot_2
+    4300110: ParkingLot_20
+    4300112: ParkingLot_21
+    4300114: ParkingLot_22
+    4300116: ParkingLot_23
+    4300118: ParkingLot_24
+    4300120: ParkingLot_25
+    4300122: ParkingLot_26
+    4300124: ParkingLot_27
+    4300126: ParkingLot_28
+    4300128: ParkingLot_29
+    4300130: ParkingLot_3
+    4300132: ParkingLot_4
+    4300134: ParkingLot_5
+    4300136: ParkingLot_6
+    4300138: ParkingLot_7
+    4300140: ParkingLot_8
+    4300142: ParkingLot_9
+    4300144: Pavement
+    4300146: RoofPlane
+    4300148: RoofPlane_1
+    4300150: RoofPlane_10
+    4300152: RoofPlane_11
+    4300154: RoofPlane_12
+    4300156: RoofPlane_13
+    4300158: RoofPlane_14
+    4300160: RoofPlane_15
+    4300162: RoofPlane_16
+    4300164: RoofPlane_17
+    4300166: RoofPlane_18
+    4300168: RoofPlane_19
+    4300170: RoofPlane_2
+    4300172: RoofPlane_20
+    4300174: RoofPlane_21
+    4300176: RoofPlane_22
+    4300178: RoofPlane_23
+    4300180: RoofPlane_24
+    4300182: RoofPlane_25
+    4300184: RoofPlane_26
+    4300186: RoofPlane_27
+    4300188: RoofPlane_28
+    4300190: RoofPlane_29
+    4300192: RoofPlane_3
+    4300194: RoofPlane_30
+    4300196: RoofPlane_31
+    4300198: RoofPlane_32
+    4300200: RoofPlane_33
+    4300202: RoofPlane_34
+    4300204: RoofPlane_35
+    4300206: RoofPlane_36
+    4300208: RoofPlane_37
+    4300210: RoofPlane_38
+    4300212: RoofPlane_39
+    4300214: RoofPlane_4
+    4300216: RoofPlane_40
+    4300218: RoofPlane_41
+    4300220: RoofPlane_42
+    4300222: RoofPlane_43
+    4300224: RoofPlane_44
+    4300226: RoofPlane_45
+    4300228: RoofPlane_46
+    4300230: RoofPlane_47
+    4300232: RoofPlane_48
+    4300234: RoofPlane_49
+    4300236: RoofPlane_5
+    4300238: RoofPlane_50
+    4300240: RoofPlane_51
+    4300242: RoofPlane_52
+    4300244: RoofPlane_53
+    4300246: RoofPlane_6
+    4300248: RoofPlane_7
+    4300250: RoofPlane_8
+    4300252: RoofPlane_9
+    4300254: Street
+    4300256: YardGround
+    4300258: YardGround_1
+    4300260: YardGround_10
+    4300262: YardGround_11
+    4300264: YardGround_12
+    4300266: YardGround_13
+    4300268: YardGround_14
+    4300270: YardGround_15
+    4300272: YardGround_16
+    4300274: YardGround_17
+    4300276: YardGround_18
+    4300278: YardGround_19
+    4300280: YardGround_2
+    4300282: YardGround_20
+    4300284: YardGround_21
+    4300286: YardGround_22
+    4300288: YardGround_23
+    4300290: YardGround_24
+    4300292: YardGround_25
+    4300294: YardGround_26
+    4300296: YardGround_27
+    4300298: YardGround_28
+    4300300: YardGround_29
+    4300302: YardGround_3
+    4300304: YardGround_30
+    4300306: YardGround_4
+    4300308: YardGround_5
+    4300310: YardGround_6
+    4300312: YardGround_7
+    4300314: YardGround_8
+    4300316: YardGround_9
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: 48a6d0f09f2e5df46b395fcb0ec15406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curbs
+    second: {fileID: 2100000, guid: 022b6b3c62d7db94cb63caf7d0b527f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture
+    second: {fileID: 2100000, guid: 6dbfe994e31c8194db3ef9bdf37dca07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_1
+    second: {fileID: 2100000, guid: 8eda619ed44a2f440b301c18e3835d91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_10
+    second: {fileID: 2100000, guid: 88b76042319429d48892cb4b45d882dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_11
+    second: {fileID: 2100000, guid: bdcd4cc3bf532084596442d44b18aaa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_12
+    second: {fileID: 2100000, guid: 116d37b3f722dad4c8a2a77272fa3fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_13
+    second: {fileID: 2100000, guid: efc4fddea500622459b2538b594bc8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_14
+    second: {fileID: 2100000, guid: e4ee0f089a2e60a4583d5c51392f409b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_15
+    second: {fileID: 2100000, guid: bb8ea18f35288464cb14cbbe11a3ee74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_16
+    second: {fileID: 2100000, guid: 01fd75169e2c2514bb2e0013d0d93df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_17
+    second: {fileID: 2100000, guid: b5ab84e424f2c9149a011609edfb1ad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_18
+    second: {fileID: 2100000, guid: 28822ab101dc52845887c361042f3d41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_19
+    second: {fileID: 2100000, guid: 8a9f621f988d56342a419f2f9658b273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_2
+    second: {fileID: 2100000, guid: 4ce0e7fe292420c47b78284fe99a84ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_20
+    second: {fileID: 2100000, guid: 35ac3749ae710ba44bf29cd7e6c4b972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_21
+    second: {fileID: 2100000, guid: 4603d950e41caf141ba214712e125ac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_22
+    second: {fileID: 2100000, guid: 3c2112bca3c29ae48a06e8782db9cd50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_23
+    second: {fileID: 2100000, guid: 77161433e08e8604ea6ff4b22372e99e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_24
+    second: {fileID: 2100000, guid: e27f0b013abbaaa4abf9372931a7bc3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_25
+    second: {fileID: 2100000, guid: 5c0edbbb044bbd44bacd1af4e12dda11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_26
+    second: {fileID: 2100000, guid: 687a6bc5a6032a7449a1633cf85a6fe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_27
+    second: {fileID: 2100000, guid: fe916afa4674b6c419366efa1ce2e4a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_28
+    second: {fileID: 2100000, guid: 0121c86b34c02b24fb528acba483585f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_3
+    second: {fileID: 2100000, guid: 6da7cd062c1c2414fb56f6447cce2a25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_4
+    second: {fileID: 2100000, guid: 076d95cec39396744b9127fc0a67d1bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_5
+    second: {fileID: 2100000, guid: a4db706bb20b4fa4d9c7a54a7626063a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_6
+    second: {fileID: 2100000, guid: c8ff0e2d95b86cd48b03257ccbf9d477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_7
+    second: {fileID: 2100000, guid: fe9ca5b323e211e40b616ce5d4d0ae1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_8
+    second: {fileID: 2100000, guid: fc241a5412da98f4bb1a74f888c90408, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacadeTexture_9
+    second: {fileID: 2100000, guid: d81a154c0bdbcc54583bd542ea6de9b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture
+    second: {fileID: 2100000, guid: be6a159875eab164bb5bd61bb36a009f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_1
+    second: {fileID: 2100000, guid: b188f9d97e74c7447b0e4db117535c48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_2
+    second: {fileID: 2100000, guid: 18a8d30ec3759c5418481679b632f1e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_3
+    second: {fileID: 2100000, guid: 885f2a7a72528a54f94728a5db9ac91d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_4
+    second: {fileID: 2100000, guid: 163b7d39df3f4b947916233d610f6abb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_5
+    second: {fileID: 2100000, guid: 5639851fe8d990541b9c9150cab506db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_6
+    second: {fileID: 2100000, guid: 57c0d30fa84813e4d8fa985622c22d60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_7
+    second: {fileID: 2100000, guid: c6ca38613d8550d47a4b9c7f44acc765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_8
+    second: {fileID: 2100000, guid: c10ed4c73d224a247b53ee95fb6ce7bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlatRoofTexture_9
+    second: {fileID: 2100000, guid: af65648423381a94a90833f1ec7e062f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot
+    second: {fileID: 2100000, guid: 638fad846b5293646a49ce0847b90150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_1
+    second: {fileID: 2100000, guid: 4540d05725585cf43a7514242f5ddf3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_10
+    second: {fileID: 2100000, guid: dbae5af56e53c9d4eac40fb98738516e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_11
+    second: {fileID: 2100000, guid: 0dea21952c90c2d4e915f9cb464f23d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_12
+    second: {fileID: 2100000, guid: d3ceca9d15dd80146b6a8b902e2c22bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_13
+    second: {fileID: 2100000, guid: 7ae97679fa82aea4bb247bbf20029688, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_14
+    second: {fileID: 2100000, guid: bbe091d086aecf048a75717f3cd24fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_15
+    second: {fileID: 2100000, guid: 7552e74a5eba74048b74ae2407c1b99b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_16
+    second: {fileID: 2100000, guid: 3bca8da7e023303419fd1a9ea2e4fb30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_17
+    second: {fileID: 2100000, guid: 9ec4c8fc583d59846a541629053d2cd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_18
+    second: {fileID: 2100000, guid: 99ba0c448078f4b4693930c35fa5b729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_19
+    second: {fileID: 2100000, guid: 1444421016dafb148a22ba559cda955e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_2
+    second: {fileID: 2100000, guid: 46afd7eb9b0641b4b8b7002e5eee4fae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_20
+    second: {fileID: 2100000, guid: bb2d997e8c02f894b9145628c73499fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_21
+    second: {fileID: 2100000, guid: 2c07c5f8bb3b9404e8f6a827118e6405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_22
+    second: {fileID: 2100000, guid: a51cf250e9d581f45ad9624d298f54c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_23
+    second: {fileID: 2100000, guid: 14d6560f0a5bd924a9a66c562f14caa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_24
+    second: {fileID: 2100000, guid: 1228388184807ab45a4fc1da5cdfb8cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_25
+    second: {fileID: 2100000, guid: 263fbc51938bb8348bc148196fd91377, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_26
+    second: {fileID: 2100000, guid: 25fc81dcaa6d08143ae02d10d9d30d3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_27
+    second: {fileID: 2100000, guid: 6a26b7f954b41184f942ace7055c1396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_28
+    second: {fileID: 2100000, guid: f47437c034d4eb546ab85066e7d0e041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_29
+    second: {fileID: 2100000, guid: 3485a195a9d6d554494f8c988f116a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_3
+    second: {fileID: 2100000, guid: 990597bef31513546bd204dc620803c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_4
+    second: {fileID: 2100000, guid: 663a1d382b0e14940af4de8bf58c1ace, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_5
+    second: {fileID: 2100000, guid: 67ef496f121fcc340b0c58c154271c64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_6
+    second: {fileID: 2100000, guid: 1bd766e1b61a6b14296655d527e219ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_7
+    second: {fileID: 2100000, guid: 53d68bd6923d63744859f97a861b8138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_8
+    second: {fileID: 2100000, guid: d82d1681c6f984343a2ec4251ab88d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ParkingLot_9
+    second: {fileID: 2100000, guid: 0b7f625cd4460dd46ac6b5c1e60b7f93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pavement
+    second: {fileID: 2100000, guid: 8a489e46f0432ca4782d838ad8aff03a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane
+    second: {fileID: 2100000, guid: d134e4aed3e489640a6ad2cb12f9fde6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_1
+    second: {fileID: 2100000, guid: 3c05ab6d3964fa441be300f2325183e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_10
+    second: {fileID: 2100000, guid: 715c5717d2a61dc4abd6bf437b3627d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_11
+    second: {fileID: 2100000, guid: 7e8e44b051b147242b15dc33299c4c8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_12
+    second: {fileID: 2100000, guid: 46eb25489f1002e4ab01ffa8ae635f49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_13
+    second: {fileID: 2100000, guid: 9468b27e4c96a0f428a7646f804d459c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_14
+    second: {fileID: 2100000, guid: 4ff693b108156c943abcfa8f6ebd7e47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_15
+    second: {fileID: 2100000, guid: 7ae8daa69465ffa49b6a768a46b281bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_16
+    second: {fileID: 2100000, guid: a08e96e70140e904da3f0eff80d86c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_17
+    second: {fileID: 2100000, guid: 4757295843fe4b34bbc488776c6cda8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_18
+    second: {fileID: 2100000, guid: d2a483af37385f344ac149d1dded1051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_19
+    second: {fileID: 2100000, guid: fd4ec523da2a81e458aa9a3867cd1849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_2
+    second: {fileID: 2100000, guid: 4e7c8c193f6667e45849b95bf91772cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_20
+    second: {fileID: 2100000, guid: aa816fc1992be75439d5769f45161d6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_21
+    second: {fileID: 2100000, guid: 4a60109d4ad4bef42a5e5ca1951bb8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_22
+    second: {fileID: 2100000, guid: 4b62f5620c921224aa773da5c16b3ae5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_23
+    second: {fileID: 2100000, guid: 12aba38507dff1d4eb67722f565da7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_24
+    second: {fileID: 2100000, guid: a8421486721b6574f855292a3fc58f60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_25
+    second: {fileID: 2100000, guid: fe1b279cf0966fb49a08044a849d0e12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_26
+    second: {fileID: 2100000, guid: 53e3b6cb020a24c46bed1446c18bc37b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_27
+    second: {fileID: 2100000, guid: 4d5807f9f94a98248816874768188d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_28
+    second: {fileID: 2100000, guid: 1325893af4df64940b62f92acde51bea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_29
+    second: {fileID: 2100000, guid: 869d597cf2adc9d4bb956d9060e4e042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_3
+    second: {fileID: 2100000, guid: a6bb861a3741450458b49e3ad83a8e05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_30
+    second: {fileID: 2100000, guid: caa210c82f48fd94eac12937d48cc247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_31
+    second: {fileID: 2100000, guid: f3b12ffd976be284394d0fb720252ba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_32
+    second: {fileID: 2100000, guid: 06fcb2c20a21a8a438fb3de6464a5034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_33
+    second: {fileID: 2100000, guid: 9eb1ff6adf40d494c883ecd21a3ea975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_34
+    second: {fileID: 2100000, guid: 8c7ae44a3f67a444c9c047127868af9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_35
+    second: {fileID: 2100000, guid: 49df909483a71154695cf1c9d8c8ae4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_36
+    second: {fileID: 2100000, guid: b5ad09765b3fe254894fe23f7a07d45a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_37
+    second: {fileID: 2100000, guid: 5e42374ff68fb494691624527400aaa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_38
+    second: {fileID: 2100000, guid: aa215aae710443943bc464b9845ce291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_39
+    second: {fileID: 2100000, guid: 5e9f290465d12414c93e01274a618e72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_4
+    second: {fileID: 2100000, guid: c4cf2d91e8ab07b46b00d7ac2be89672, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_40
+    second: {fileID: 2100000, guid: 90ee39ffae9a8304d8217dba493a4aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_41
+    second: {fileID: 2100000, guid: 473730fd546167d46830940fe652434c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_42
+    second: {fileID: 2100000, guid: ecfba48a39aa0c04f856b5960eafb55b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_43
+    second: {fileID: 2100000, guid: 4be10093023ecc54691ca3cb4b451a04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_44
+    second: {fileID: 2100000, guid: 2fff6ac55746cd64893c3eb8c3757e1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_45
+    second: {fileID: 2100000, guid: 6281a5f24c2395d45aae101baf5a3c2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_46
+    second: {fileID: 2100000, guid: 6da74b5d6aaed0747b50288cc9af5433, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_47
+    second: {fileID: 2100000, guid: f10c0b6522d082a44b069f8ab8607d39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_48
+    second: {fileID: 2100000, guid: 4240a1e69799e9a45a1173c05a5126ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_49
+    second: {fileID: 2100000, guid: 13563dd48f6d1dc4e9fb2f81df4d49e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_5
+    second: {fileID: 2100000, guid: 2102c6654bc7e874990e497cb091dea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_50
+    second: {fileID: 2100000, guid: 0d57e993834886f42a0b35e9d14ab2f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_51
+    second: {fileID: 2100000, guid: 5fc52c59eeeffaa42a228e5456f2a046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_52
+    second: {fileID: 2100000, guid: 561e385efe2a3474f8b6498673eefe3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_53
+    second: {fileID: 2100000, guid: ac525319b73c36f48b7fcb819c76e645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_6
+    second: {fileID: 2100000, guid: 91b5c10bb357898469161fadad01cad9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_7
+    second: {fileID: 2100000, guid: db39a1ebcbaa0994aab977eb63bfb2c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_8
+    second: {fileID: 2100000, guid: 2fc3f4dc1b06e2a48af4d560b8b65527, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPlane_9
+    second: {fileID: 2100000, guid: f503fcbe734a3d7418ce2e606ce0803f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Street
+    second: {fileID: 2100000, guid: 71a33828be2c802489397c0f5a20d0fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround
+    second: {fileID: 2100000, guid: 6de34662d4eb6fc41b297544f4389aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_1
+    second: {fileID: 2100000, guid: 76239ea7042303941a1c8523d9d10c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_10
+    second: {fileID: 2100000, guid: edde95c91d6b0d346b1f73620d6e32c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_11
+    second: {fileID: 2100000, guid: e4387bb677b3d8e4c9224f9400516b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_12
+    second: {fileID: 2100000, guid: 48e8b1ab5fd42884083f1a51f06d1507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_13
+    second: {fileID: 2100000, guid: 09bdd8f85d33c9f4cae47741fb80cd62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_14
+    second: {fileID: 2100000, guid: f77d0d40127e6e04f909756a3f55bb29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_15
+    second: {fileID: 2100000, guid: 9e8247ad68639c241b6543457de289ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_16
+    second: {fileID: 2100000, guid: 9a0288b6c8a9fea4597a3301474f2cb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_17
+    second: {fileID: 2100000, guid: 85400f677aa98d348b650b4f61091f3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_18
+    second: {fileID: 2100000, guid: 0a295f9a0c96c90478eb3a187b291c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_19
+    second: {fileID: 2100000, guid: fbc1b11ea6088dc43bdd4da0d4ee7707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_2
+    second: {fileID: 2100000, guid: d40c4af19a71ee14ea34b5fb3463c564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_20
+    second: {fileID: 2100000, guid: d36c708d44e150840bb1c80c0e85184b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_21
+    second: {fileID: 2100000, guid: 8c29e82c138e22843a877d870ef54e34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_22
+    second: {fileID: 2100000, guid: 59f647e70468b294e87fef71c8cc4ac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_23
+    second: {fileID: 2100000, guid: 08b05cff1e9b8ac418b6a8704789de70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_24
+    second: {fileID: 2100000, guid: dbd8e407a2b75004797799f3754a8da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_25
+    second: {fileID: 2100000, guid: c6788c7ba32bfe242a69983d7e7a3afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_26
+    second: {fileID: 2100000, guid: 03be1d5e518710447a5f354ee7c93b3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_27
+    second: {fileID: 2100000, guid: c0deaa88571728f4799bf6dea7f827f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_28
+    second: {fileID: 2100000, guid: ccbc8df81b12e41409659edf387c5e92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_29
+    second: {fileID: 2100000, guid: ce4bc4187760cee4ca3d2f701755822c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_3
+    second: {fileID: 2100000, guid: dd007eb70a232af44ac0918998f1067c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_30
+    second: {fileID: 2100000, guid: 0eb6e14f42b17b8478dfab7a1b7a0c58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_4
+    second: {fileID: 2100000, guid: be750f48ab74b5c4395822a43a7370cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_5
+    second: {fileID: 2100000, guid: fd5fa0a2a947e184aab8fc1e8f21f893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_6
+    second: {fileID: 2100000, guid: 6f6712f42537c1644865ad66af22f0d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_7
+    second: {fileID: 2100000, guid: 1a425cc46910b7442b20b74a8b45c58c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_8
+    second: {fileID: 2100000, guid: 2254808549caa4c4db1977c29028785c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YardGround_9
+    second: {fileID: 2100000, guid: 313b4185555f44445a1ae77a75476080, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
