@@ -26,3 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VRTK/Examples/[007 - Interactions] InteractionHelpers.unity
     guid: ea2236e506afcac41a7b82e176d839d1
+  - enabled: 1
+    path: Assets/Base_Scene.unity
+    guid: 135a6b2be8dc31c4bb7003e9c18cab66
+  m_configObjects: {}
