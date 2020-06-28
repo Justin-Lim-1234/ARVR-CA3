@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 1c4e5b4b1f4972247bc5e3cac86b8c41
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ankle.L
+    100002: Ankle.R
+    100004: Arm Guard
+    100006: Body
+    100008: Calf.L
+    100010: Calf.R
+    100012: Chest Piece
+    100014: Coat arms
+    100016: Cutting Edge
+    100018: Cylinder.001
+    100020: Elbow.L
+    100022: Elbow.R
+    100024: Feet.L
+    100026: Feet.R
+    100028: FIst.L
+    100030: Fist.R
+    100032: Groin
+    100034: GroinJoints.L
+    100036: GroinJoints.R
+    100038: Head
+    100040: KneeCap.L
+    100042: KneeCap.R
+    100044: LowerArm.L
+    100046: LowerArm.R
+    100048: //RootNode
+    100050: Shoulder.L
+    100052: Shoulder.R
+    100054: Tigh.L
+    100056: Tigh.R
+    100058: UpperArm.L
+    100060: UpperArm.R
+    400000: Ankle.L
+    400002: Ankle.R
+    400004: Arm Guard
+    400006: Body
+    400008: Calf.L
+    400010: Calf.R
+    400012: Chest Piece
+    400014: Coat arms
+    400016: Cutting Edge
+    400018: Cylinder.001
+    400020: Elbow.L
+    400022: Elbow.R
+    400024: Feet.L
+    400026: Feet.R
+    400028: FIst.L
+    400030: Fist.R
+    400032: Groin
+    400034: GroinJoints.L
+    400036: GroinJoints.R
+    400038: Head
+    400040: KneeCap.L
+    400042: KneeCap.R
+    400044: LowerArm.L
+    400046: LowerArm.R
+    400048: //RootNode
+    400050: Shoulder.L
+    400052: Shoulder.R
+    400054: Tigh.L
+    400056: Tigh.R
+    400058: UpperArm.L
+    400060: UpperArm.R
+    2100000: Groin Screws
+    2100002: Groin
+    2100004: Shoulders
+    2100006: Upper Arms
+    2100008: Elbow
+    2100010: Lower Arms
+    2100012: Fist
+    2100014: Body
+    2100016: Invertbre
+    2100018: Cockpit
+    2100020: Glass
+    2100022: Engine
+    2100024: Feet
+    2100026: Ankle
+    2100028: Femur
+    2100030: Kneecap
+    2100032: Tighs
+    2100034: Sword
+    2100036: Hand Guard
+    2100038: Handle
+    2100040: Pommel
+    2100042: Emblem
+    2300000: Ankle.L
+    2300002: Ankle.R
+    2300004: Arm Guard
+    2300006: Body
+    2300008: Calf.L
+    2300010: Calf.R
+    2300012: Chest Piece
+    2300014: Coat arms
+    2300016: Cutting Edge
+    2300018: Cylinder.001
+    2300020: Elbow.L
+    2300022: Elbow.R
+    2300024: Feet.L
+    2300026: Feet.R
+    2300028: FIst.L
+    2300030: Fist.R
+    2300032: Groin
+    2300034: GroinJoints.L
+    2300036: GroinJoints.R
+    2300038: Head
+    2300040: KneeCap.L
+    2300042: KneeCap.R
+    2300044: LowerArm.L
+    2300046: LowerArm.R
+    2300048: Shoulder.L
+    2300050: Shoulder.R
+    2300052: Tigh.L
+    2300054: Tigh.R
+    2300056: UpperArm.L
+    2300058: UpperArm.R
+    3300000: Ankle.L
+    3300002: Ankle.R
+    3300004: Arm Guard
+    3300006: Body
+    3300008: Calf.L
+    3300010: Calf.R
+    3300012: Chest Piece
+    3300014: Coat arms
+    3300016: Cutting Edge
+    3300018: Cylinder.001
+    3300020: Elbow.L
+    3300022: Elbow.R
+    3300024: Feet.L
+    3300026: Feet.R
+    3300028: FIst.L
+    3300030: Fist.R
+    3300032: Groin
+    3300034: GroinJoints.L
+    3300036: GroinJoints.R
+    3300038: Head
+    3300040: KneeCap.L
+    3300042: KneeCap.R
+    3300044: LowerArm.L
+    3300046: LowerArm.R
+    3300048: Shoulder.L
+    3300050: Shoulder.R
+    3300052: Tigh.L
+    3300054: Tigh.R
+    3300056: UpperArm.L
+    3300058: UpperArm.R
+    4300000: GroinJoints.L
+    4300002: Groin
+    4300004: Shoulder.L
+    4300006: UpperArm.L
+    4300008: Elbow.L
+    4300010: LowerArm.L
+    4300012: FIst.L
+    4300014: Body
+    4300016: Head
+    4300018: Chest Piece
+    4300020: Feet.L
+    4300022: Ankle.L
+    4300024: Calf.L
+    4300026: KneeCap.L
+    4300028: Tigh.L
+    4300030: Fist.R
+    4300032: Shoulder.R
+    4300034: UpperArm.R
+    4300036: Elbow.R
+    4300038: LowerArm.R
+    4300040: GroinJoints.R
+    4300042: Tigh.R
+    4300044: KneeCap.R
+    4300046: Calf.R
+    4300048: Feet.R
+    4300050: Ankle.R
+    4300052: Cutting Edge
+    4300054: Arm Guard
+    4300056: Cylinder.001
+    4300058: Coat arms
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
