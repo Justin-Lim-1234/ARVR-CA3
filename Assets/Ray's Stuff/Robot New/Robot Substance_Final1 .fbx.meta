@@ -177,7 +177,117 @@ ModelImporter:
     4300054: Arm Guard
     4300056: Cylinder.001
     4300058: Coat arms
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ankle
+    second: {fileID: 2100000, guid: 5da9ec18c1175f74aad5c4aa8778e5c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 1bb35206fb4aae449a90a764998ac7f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cockpit
+    second: {fileID: 2100000, guid: 32ad51ae6cbbc3e489dd78d5ddd861f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elbow
+    second: {fileID: 2100000, guid: 7605ce1982267954d97e4cad1f90f9b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emblem
+    second: {fileID: 2100000, guid: a68fafbe0ce285041b39d7aa47260692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engine
+    second: {fileID: 2100000, guid: 748ba8ddb46b5e543a838ac94471eaf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Feet
+    second: {fileID: 2100000, guid: b51f9fd75fdb9e44d95295839fa3ba00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Femur
+    second: {fileID: 2100000, guid: d57f7adebd6059b4784425c7265ba330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fist
+    second: {fileID: 2100000, guid: d12b5ff9b7fc2df4d8ef5c2bc2d8d2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 1aa2bbe249aa7d04a9ef6ddc15b721d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groin
+    second: {fileID: 2100000, guid: 3ae448bdd428e8b4aad9006ef567cdd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Groin Screws
+    second: {fileID: 2100000, guid: c76140c763744a0459ff492f7213b1ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand Guard
+    second: {fileID: 2100000, guid: 70969a12ddf45c64c9381169b34e66cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: 065c69ccbea62b5418d27f25e695e22f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Invertbre
+    second: {fileID: 2100000, guid: cdf00d01f24500f4087b15d53913423c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kneecap
+    second: {fileID: 2100000, guid: 6ca160895a157c9449a3ec127b44e452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lower Arms
+    second: {fileID: 2100000, guid: b4f347f6aa1232f47af14b98300206cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pommel
+    second: {fileID: 2100000, guid: 893399fe9b5d34441babb1804dd8e0a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoulders
+    second: {fileID: 2100000, guid: 0fd6f93425e4bba43a047507e9f3461a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sword
+    second: {fileID: 2100000, guid: 02280adc38fb2cb4cba76d83c3b36712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tighs
+    second: {fileID: 2100000, guid: 6f341ebe2ce82d74f9589f1289ed59e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Upper Arms
+    second: {fileID: 2100000, guid: ea85799624b010d47888f90fbd0d006c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
