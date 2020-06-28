@@ -16,8 +16,12 @@ public class SwordScript : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter( Collider col)
+    private void OnTriggerEnter(Collider col)
     {
-
+        if (col.gameObject.tag == "Enemy")
+        {
+            MauraderAI ma = col.gameObject.GetComponent<MauraderAI>();
+            ma.health -= 10;
+        }
     }
 }
