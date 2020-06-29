@@ -6,82 +6,152 @@ ModelImporter:
     100000: Ankle.L
     100002: Ankle.R
     100004: Arm Guard
-    100006: Body
-    100008: Calf.L
-    100010: Calf.R
-    100012: Chest Piece
-    100014: Coat arms
-    100016: Cutting Edge
-    100018: Cylinder.001
-    100020: Elbow.L
-    100022: Elbow.R
-    100024: Feet.L
-    100026: Feet.R
-    100028: FIst.L
-    100030: Fist.R
-    100032: Groin
-    100034: GroinJoints.L
-    100036: GroinJoints.R
-    100038: Head
-    100040: KneeCap.L
-    100042: KneeCap.R
-    100044: LowerArm.L
-    100046: LowerArm.R
-    100048: //RootNode
-    100050: Shoulder.L
-    100052: Shoulder.R
-    100054: Tigh.L
-    100056: Tigh.R
-    100058: UpperArm.L
-    100060: UpperArm.R
+    100006: Armature
+    100008: Body
+    100010: Bone
+    100012: Bone.001
+    100014: Bone.002
+    100016: Bone.003
+    100018: Bone.004
+    100020: Bone.005
+    100022: Bone.006
+    100024: Bone.006_end
+    100026: Calf.L
+    100028: Calf.R
+    100030: Chest Piece
+    100032: Coat arms
+    100034: Cutting Edge
+    100036: Cylinder.001
+    100038: Elbow.L
+    100040: Elbow.L 1
+    100042: Elbow.R
+    100044: Elbow.R 1
+    100046: Feet.L
+    100048: Feet.L 1
+    100050: Feet.L_end
+    100052: Feet.R
+    100054: Feet.R 1
+    100056: Feet.R_end
+    100058: FIst.L
+    100060: Fist.L
+    100062: Fist.L_end
+    100064: Fist.R
+    100066: Fist.R 1
+    100068: Fist.R_end
+    100070: Groin
+    100072: Groin.L
+    100074: Groin.R
+    100076: GroinJoints.L
+    100078: GroinJoints.R
+    100080: Head
+    100082: Knee.L
+    100084: Knee.R
+    100086: KneeCap.L
+    100088: KneeCap.R
+    100090: LowerArm.L
+    100092: LowerArm.L 1
+    100094: LowerArm.R
+    100096: LowerArm.R 1
+    100098: //RootNode
+    100100: Shin.L
+    100102: Shin.R
+    100104: Shoulder.L
+    100106: Shoulder.L 1
+    100108: Shoulder.L.001
+    100110: Shoulder.R
+    100112: Shoulder.R 1
+    100114: Shoulder.R.001
+    100116: Thigh.L
+    100118: Thigh.R
+    100120: Tigh.L
+    100122: Tigh.R
+    100124: UpperArm.L
+    100126: UpperArm.L 1
+    100128: UpperArm.R
+    100130: UpperArm.R 1
     400000: Ankle.L
     400002: Ankle.R
     400004: Arm Guard
-    400006: Body
-    400008: Calf.L
-    400010: Calf.R
-    400012: Chest Piece
-    400014: Coat arms
-    400016: Cutting Edge
-    400018: Cylinder.001
-    400020: Elbow.L
-    400022: Elbow.R
-    400024: Feet.L
-    400026: Feet.R
-    400028: FIst.L
-    400030: Fist.R
-    400032: Groin
-    400034: GroinJoints.L
-    400036: GroinJoints.R
-    400038: Head
-    400040: KneeCap.L
-    400042: KneeCap.R
-    400044: LowerArm.L
-    400046: LowerArm.R
-    400048: //RootNode
-    400050: Shoulder.L
-    400052: Shoulder.R
-    400054: Tigh.L
-    400056: Tigh.R
-    400058: UpperArm.L
-    400060: UpperArm.R
+    400006: Armature
+    400008: Body
+    400010: Bone
+    400012: Bone.001
+    400014: Bone.002
+    400016: Bone.003
+    400018: Bone.004
+    400020: Bone.005
+    400022: Bone.006
+    400024: Bone.006_end
+    400026: Calf.L
+    400028: Calf.R
+    400030: Chest Piece
+    400032: Coat arms
+    400034: Cutting Edge
+    400036: Cylinder.001
+    400038: Elbow.L
+    400040: Elbow.L 1
+    400042: Elbow.R
+    400044: Elbow.R 1
+    400046: Feet.L
+    400048: Feet.L 1
+    400050: Feet.L_end
+    400052: Feet.R
+    400054: Feet.R 1
+    400056: Feet.R_end
+    400058: FIst.L
+    400060: Fist.L
+    400062: Fist.L_end
+    400064: Fist.R
+    400066: Fist.R 1
+    400068: Fist.R_end
+    400070: Groin
+    400072: Groin.L
+    400074: Groin.R
+    400076: GroinJoints.L
+    400078: GroinJoints.R
+    400080: Head
+    400082: Knee.L
+    400084: Knee.R
+    400086: KneeCap.L
+    400088: KneeCap.R
+    400090: LowerArm.L
+    400092: LowerArm.L 1
+    400094: LowerArm.R
+    400096: LowerArm.R 1
+    400098: //RootNode
+    400100: Shin.L
+    400102: Shin.R
+    400104: Shoulder.L
+    400106: Shoulder.L 1
+    400108: Shoulder.L.001
+    400110: Shoulder.R
+    400112: Shoulder.R 1
+    400114: Shoulder.R.001
+    400116: Thigh.L
+    400118: Thigh.R
+    400120: Tigh.L
+    400122: Tigh.R
+    400124: UpperArm.L
+    400126: UpperArm.L 1
+    400128: UpperArm.R
+    400130: UpperArm.R 1
     2100000: Groin Screws
-    2100002: Groin
-    2100004: Shoulders
-    2100006: Upper Arms
-    2100008: Elbow
-    2100010: Lower Arms
-    2100012: Fist
-    2100014: Body
-    2100016: Invertbre
-    2100018: Cockpit
-    2100020: Glass
-    2100022: Engine
-    2100024: Feet
-    2100026: Ankle
+    2100002: Engine
+    2100004: Groin
+    2100006: Body
+    2100008: Invertbre
+    2100010: Shoulders
+    2100012: Upper Arms
+    2100014: Elbow
+    2100016: Lower Arms
+    2100018: Fist
+    2100020: Cockpit
+    2100022: Glass
+    2100024: Tighs
+    2100026: Kneecap
     2100028: Femur
-    2100030: Kneecap
-    2100032: Tighs
+    2100030: Feet
+    2100032: Ankle
     2100034: Sword
     2100036: Hand Guard
     2100038: Handle
@@ -97,26 +167,26 @@ ModelImporter:
     2300014: Coat arms
     2300016: Cutting Edge
     2300018: Cylinder.001
-    2300020: Elbow.L
-    2300022: Elbow.R
-    2300024: Feet.L
-    2300026: Feet.R
+    2300020: Elbow.L 1
+    2300022: Elbow.R 1
+    2300024: Feet.L 1
+    2300026: Feet.R 1
     2300028: FIst.L
-    2300030: Fist.R
+    2300030: Fist.R 1
     2300032: Groin
     2300034: GroinJoints.L
     2300036: GroinJoints.R
     2300038: Head
     2300040: KneeCap.L
     2300042: KneeCap.R
-    2300044: LowerArm.L
-    2300046: LowerArm.R
-    2300048: Shoulder.L
-    2300050: Shoulder.R
+    2300044: LowerArm.L 1
+    2300046: LowerArm.R 1
+    2300048: Shoulder.L 1
+    2300050: Shoulder.R 1
     2300052: Tigh.L
     2300054: Tigh.R
-    2300056: UpperArm.L
-    2300058: UpperArm.R
+    2300056: UpperArm.L 1
+    2300058: UpperArm.R 1
     3300000: Ankle.L
     3300002: Ankle.R
     3300004: Arm Guard
@@ -127,56 +197,58 @@ ModelImporter:
     3300014: Coat arms
     3300016: Cutting Edge
     3300018: Cylinder.001
-    3300020: Elbow.L
-    3300022: Elbow.R
-    3300024: Feet.L
-    3300026: Feet.R
+    3300020: Elbow.L 1
+    3300022: Elbow.R 1
+    3300024: Feet.L 1
+    3300026: Feet.R 1
     3300028: FIst.L
-    3300030: Fist.R
+    3300030: Fist.R 1
     3300032: Groin
     3300034: GroinJoints.L
     3300036: GroinJoints.R
     3300038: Head
     3300040: KneeCap.L
     3300042: KneeCap.R
-    3300044: LowerArm.L
-    3300046: LowerArm.R
-    3300048: Shoulder.L
-    3300050: Shoulder.R
+    3300044: LowerArm.L 1
+    3300046: LowerArm.R 1
+    3300048: Shoulder.L 1
+    3300050: Shoulder.R 1
     3300052: Tigh.L
     3300054: Tigh.R
-    3300056: UpperArm.L
-    3300058: UpperArm.R
+    3300056: UpperArm.L 1
+    3300058: UpperArm.R 1
     4300000: GroinJoints.L
-    4300002: Groin
-    4300004: Shoulder.L
-    4300006: UpperArm.L
-    4300008: Elbow.L
-    4300010: LowerArm.L
-    4300012: FIst.L
-    4300014: Body
-    4300016: Head
-    4300018: Chest Piece
-    4300020: Feet.L
-    4300022: Ankle.L
-    4300024: Calf.L
-    4300026: KneeCap.L
-    4300028: Tigh.L
-    4300030: Fist.R
-    4300032: Shoulder.R
-    4300034: UpperArm.R
-    4300036: Elbow.R
-    4300038: LowerArm.R
-    4300040: GroinJoints.R
-    4300042: Tigh.R
-    4300044: KneeCap.R
-    4300046: Calf.R
-    4300048: Feet.R
-    4300050: Ankle.R
+    4300002: Chest Piece
+    4300004: Groin
+    4300006: Body
+    4300008: Shoulder.L
+    4300010: UpperArm.L
+    4300012: Elbow.L
+    4300014: LowerArm.L
+    4300016: FIst.L
+    4300018: Head
+    4300020: Shoulder.R
+    4300022: UpperArm.R
+    4300024: Elbow.R
+    4300026: Fist.R
+    4300028: LowerArm.R
+    4300030: Tigh.L
+    4300032: KneeCap.L
+    4300034: Calf.L
+    4300036: Feet.L
+    4300038: Ankle.L
+    4300040: Tigh.R
+    4300042: KneeCap.R
+    4300044: Calf.R
+    4300046: Feet.R
+    4300048: Ankle.R
+    4300050: GroinJoints.R
     4300052: Cutting Edge
     4300054: Arm Guard
     4300056: Cylinder.001
     4300058: Coat arms
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -232,12 +304,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Groin
-    second: {fileID: 2100000, guid: 3ae448bdd428e8b4aad9006ef567cdd9, type: 2}
+    second: {fileID: 2100000, guid: c76140c763744a0459ff492f7213b1ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Groin Screws
-    second: {fileID: 2100000, guid: c76140c763744a0459ff492f7213b1ef, type: 2}
+    second: {fileID: 2100000, guid: 3ae448bdd428e8b4aad9006ef567cdd9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -318,7 +390,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.05
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -339,8 +411,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -367,7 +439,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
