@@ -50,7 +50,6 @@ MonoBehaviour:
   basicSpeed: 1
   chaseSpeed: 10
   attackDMG: 1
-  health: 50
   detectionRange: 15
   attackRange: 5
   currentState: 0
@@ -107,6 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb6aaab10547f374daecf4dba99d40dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currenthealth: 0
+  health: 50
 --- !u!1001 &1935316068865788325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -166,6 +167,26 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ba2fdf553351c874a8f78f223dea74bd, type: 2}
+    - target: {fileID: 13700000, guid: 1495bacdec54a2f439c904aa72cbc8d6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 97e5be11209047f43b177757d36e609e, type: 2}
+    - target: {fileID: 13700000, guid: 1495bacdec54a2f439c904aa72cbc8d6, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 97e5be11209047f43b177757d36e609e, type: 2}
+    - target: {fileID: 13700000, guid: 1495bacdec54a2f439c904aa72cbc8d6, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 97e5be11209047f43b177757d36e609e, type: 2}
+    - target: {fileID: 13700000, guid: 1495bacdec54a2f439c904aa72cbc8d6, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 97e5be11209047f43b177757d36e609e, type: 2}
+    - target: {fileID: 13700000, guid: 1495bacdec54a2f439c904aa72cbc8d6, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: be6b3e860f975c046a0167eac6e39688, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1495bacdec54a2f439c904aa72cbc8d6, type: 3}
 --- !u!4 &1935316068866183975 stripped
