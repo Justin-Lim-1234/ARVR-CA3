@@ -9,7 +9,7 @@ public class MauraderAI : MonoBehaviour
     public float basicSpeed = 1; //speed used for moving 
     public float chaseSpeed = 1; //speed when chasing player
     public float attackDMG  = 1;
-    public float health = 50;
+    
     
     public float detectionRange = 10;
     public float attackRange = 10;
@@ -21,6 +21,7 @@ public class MauraderAI : MonoBehaviour
     private GameObject Player;
     private NavMeshAgent navMeshAgent;
     private Vector3 destination;
+    private Health health;
 
     //Wandering Objects
     private float stopRange = 2;
@@ -43,6 +44,7 @@ public class MauraderAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        health = GetComponent<Health>();
         animator = GetComponentInChildren<Animator>();
         Player = GameObject.FindGameObjectWithTag("Player");
         navMeshAgent = this.GetComponent<NavMeshAgent>();
@@ -51,7 +53,7 @@ public class MauraderAI : MonoBehaviour
             print("Unable to find Player tag in scene, Please Assign player tag to an object.");
 
         }
-        currenthealth = health;
+        currenthealth = health.currenthealth;
     }
 
     // Update is called once per frame
@@ -82,12 +84,12 @@ public class MauraderAI : MonoBehaviour
 
         }
 
-        if (health <= 0)
+        if (health.currenthealth <= 0)
         {
             currentState= MauraderStates.DIE;
 
         }
-        if (currenthealth < health)
+        if (currenthealth < health.currenthealth)
         {
             currentState = MauraderStates.CHASE;
 
@@ -288,6 +290,9 @@ public class MauraderAI : MonoBehaviour
     private void Die()
     {
         animator.SetTrigger("Die");
+        navMeshAgent.isStopped = true;
+        Destroy(this.gameObject, 5f);
+
     }
 
 

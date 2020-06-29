@@ -21,7 +21,7 @@ public class SwordScript : MonoBehaviour
         if (col.gameObject.tag == "Enemy")
         {
             MauraderAI ma = col.gameObject.GetComponent<MauraderAI>();
-            ma.health -= 10;
+           // ma.health -= 10;
         }
     }
 }
