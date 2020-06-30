@@ -273,7 +273,7 @@ public class Spitter_Ai : MonoBehaviour
             {
                 animator.SetTrigger("Attack");
                 GameObject hitbox = Instantiate(attackhitbox, transform);
-                Destroy(hitbox, 0.2f);
+                Destroy(hitbox, 10f);
                 attackCD = 0;
 
             }
