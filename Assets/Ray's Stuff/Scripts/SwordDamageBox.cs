@@ -7,11 +7,12 @@ public class SwordDamageBox : MonoBehaviour
     public int SwordDps = 30;
 
 
-    void OnCollisionEnter(Collision collider)
+    void OnTriggerEnter(Collider col)
     {
-        if (collider.gameObject.tag == "Enemy")
+        if (col.gameObject.layer == 8)
         {
-          Health healthenemy =  collider.gameObject.GetComponent<Health>();
+            Debug.Log("Hit");
+            Health healthenemy =  col.gameObject.GetComponent<Health>();
             healthenemy.currenthealth -=  SwordDps;
 
         }
