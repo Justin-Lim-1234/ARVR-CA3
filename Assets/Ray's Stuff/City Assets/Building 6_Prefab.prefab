@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5894328674314272860}
   - component: {fileID: 5894328674315371164}
   - component: {fileID: 7569285599744759597}
+  - component: {fileID: 1309747552968285201}
   m_Layer: 0
   m_Name: Building 6_Prefab
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 443b369e42da10f439b13d995dd8ea41, type: 2}
   - {fileID: 2100000, guid: 61e018429d3a4e749ba1cc61250879c1, type: 2}
-  - {fileID: 2100004, guid: 3ca871bb0e52f714e927a62e4bcbadd3, type: 3}
+  - {fileID: 2100000, guid: ca5ea145f2a572b4b96a5c446460edb1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -93,3 +94,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.020909896, y: 0.023165738, z: 0.44156456}
   m_Center: {x: 0.0004549474, y: -7.488493e-16, z: 0.21078229}
+--- !u!205 &1309747552968285201
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5894328674313116764}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.999
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.999
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.999
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1

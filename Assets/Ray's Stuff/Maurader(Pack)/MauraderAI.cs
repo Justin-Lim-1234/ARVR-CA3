@@ -24,7 +24,7 @@ public class MauraderAI : MonoBehaviour
     private Health health;
 
     //Wandering Objects
-    private float stopRange = 2;
+    private float stopRange = 5;
     public GameObject[] wayPoints;
     private int wayPointCount =0;
 

@@ -21,7 +21,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Extrution
-    second: {fileID: 2100000, guid: 36bc60caf96689544a82f852d554b213, type: 2}
+    second: {fileID: 2100000, guid: ca5ea145f2a572b4b96a5c446460edb1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

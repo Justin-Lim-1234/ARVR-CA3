@@ -301,12 +301,12 @@ public class Spitter_Ai : MonoBehaviour
         // Draws a 5 unit long red line in front of the object
         Gizmos.color = Color.red;
         Vector3 direction = transform.TransformDirection(Vector3.forward) * detectionRange;
-        Gizmos.DrawRay(transform.position, direction);
+        Gizmos.DrawRay(transform.position + transform.up, direction);
 
 
 
         direction = transform.TransformDirection(Vector3.forward + Vector3.right) * detectionRange;
-        Gizmos.DrawRay(transform.position, direction);
+        Gizmos.DrawRay(transform.position + transform.up, direction);
 
         direction = transform.TransformDirection(Vector3.forward + Vector3.left) * detectionRange;
         Gizmos.DrawRay(transform.position, direction);
@@ -315,10 +315,10 @@ public class Spitter_Ai : MonoBehaviour
 
 
         direction = transform.TransformDirection(Vector3.forward + sideangle) * detectionRange;
-        Gizmos.DrawRay(transform.position, direction);
+        Gizmos.DrawRay(transform.position + transform.up, direction);
 
         direction = transform.TransformDirection(Vector3.forward - sideangle) * detectionRange;
-        Gizmos.DrawRay(transform.position, direction);
+        Gizmos.DrawRay(transform.position + transform.up + transform.up + transform.up + transform.up, direction);
 
 
     }

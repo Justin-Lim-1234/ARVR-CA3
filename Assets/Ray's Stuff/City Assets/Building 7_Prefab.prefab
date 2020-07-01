@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6566321798767892503}
   - component: {fileID: 6566321798766893783}
   - component: {fileID: 4101368392239445823}
+  - component: {fileID: 3606887939813733421}
   m_Layer: 0
   m_Name: Building 7_Prefab
   m_TagString: Untagged
@@ -93,3 +94,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999998, z: 0.10495324}
   m_Center: {x: 0, y: -3.7726828e-17, z: 0.042476624}
+--- !u!205 &3606887939813733421
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6566321798764626967}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.999
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.999
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.999
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1

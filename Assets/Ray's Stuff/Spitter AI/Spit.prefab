@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3463746895759588917}
   - component: {fileID: 1062671045498896827}
   - component: {fileID: 4123520872772324454}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,9 +167,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startSpeed:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 1
-      minScalar: 5
+      minMaxState: 3
+      scalar: 3
+      minScalar: 4
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -284,8 +284,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
-      minScalar: 0.7
+      scalar: 2.5
+      minScalar: 3.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4709,7 +4709,7 @@ GameObject:
   - component: {fileID: 6889950025459872729}
   - component: {fileID: 1618015376818166183}
   - component: {fileID: 1136075863085705376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Single
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4982,7 +4982,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9410,7 +9410,7 @@ GameObject:
   - component: {fileID: 8533532703115257321}
   - component: {fileID: 6320480329263970791}
   - component: {fileID: 8470501026120330642}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9466,6 +9466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f743cd23f7786f429f589fb35b82a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDmg: 0
 --- !u!54 &6320480329263970791
 Rigidbody:
   m_ObjectHideFlags: 0
