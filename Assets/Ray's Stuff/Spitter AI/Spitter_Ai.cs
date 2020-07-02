@@ -23,7 +23,7 @@ public class Spitter_Ai : MonoBehaviour
     private Health health;
 
     //Wandering Objects
-    private float stopRange = 2;
+    private float stopRange = 4;
     public GameObject[] wayPoints;
     private int wayPointCount = 0;
 
@@ -120,7 +120,7 @@ public class Spitter_Ai : MonoBehaviour
 
     void Wander()
     {
-        navMeshAgent.speed = 3.5f;
+        navMeshAgent.speed = 4.5f;
         animator.SetFloat("Speed", 1f);
         navMeshAgent.SetDestination(wayPoints[wayPointCount].transform.position);
         if (wayPoints.Length <= 0)
@@ -301,12 +301,12 @@ public class Spitter_Ai : MonoBehaviour
         // Draws a 5 unit long red line in front of the object
         Gizmos.color = Color.red;
         Vector3 direction = transform.TransformDirection(Vector3.forward) * detectionRange;
-        Gizmos.DrawRay(transform.position + transform.up, direction);
+        Gizmos.DrawRay(transform.position, direction);
 
 
 
         direction = transform.TransformDirection(Vector3.forward + Vector3.right) * detectionRange;
-        Gizmos.DrawRay(transform.position + transform.up, direction);
+        Gizmos.DrawRay(transform.position, direction);
 
         direction = transform.TransformDirection(Vector3.forward + Vector3.left) * detectionRange;
         Gizmos.DrawRay(transform.position, direction);
@@ -315,10 +315,10 @@ public class Spitter_Ai : MonoBehaviour
 
 
         direction = transform.TransformDirection(Vector3.forward + sideangle) * detectionRange;
-        Gizmos.DrawRay(transform.position + transform.up, direction);
+        Gizmos.DrawRay(transform.position, direction);
 
         direction = transform.TransformDirection(Vector3.forward - sideangle) * detectionRange;
-        Gizmos.DrawRay(transform.position + transform.up + transform.up + transform.up + transform.up, direction);
+        Gizmos.DrawRay(transform.position, direction);
 
 
     }

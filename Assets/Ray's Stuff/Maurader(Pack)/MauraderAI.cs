@@ -121,7 +121,7 @@ public class MauraderAI : MonoBehaviour
 
     void Wander()
     {
-        navMeshAgent.speed = 3.5f;
+        navMeshAgent.speed = 5f;
         animator.SetFloat("Speed", 1f);
         navMeshAgent.SetDestination(wayPoints[wayPointCount].transform.position);
         if (wayPoints.Length <= 0)
