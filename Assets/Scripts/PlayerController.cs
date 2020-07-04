@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public float moveSpeed = 5f;
     public float health = 100f;
+    public bool isDead = false;
 
     public float energy = 100f;
     public float energyChargeCD = 1.5f;
@@ -77,6 +78,9 @@ public class PlayerController : MonoBehaviour
 
     public void HealthManager()
     {
-
+        if (health <= 0)
+        {
+            isDead = true;
+        }
     }
 }

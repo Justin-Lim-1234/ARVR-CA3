@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class AttackTrigger : MonoBehaviour
 {
-
-    public float attackDmg;
     private int count = 1;
     // Start is called before the first frame update
     void Start()
@@ -26,7 +24,12 @@ public class AttackTrigger : MonoBehaviour
             if (collision.gameObject.tag == "Player")
             {
                 print("Player has taken damage");
-                count = 0;
+                PlayerController pc = GetComponent<PlayerController>();
+                if (!pc.shieldUp)
+                {
+                    pc.TakeDamage(20);
+                    count = 0;
+                }
 
             }
             else
