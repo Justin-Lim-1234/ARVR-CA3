@@ -227,9 +227,10 @@ public class MauraderAI : MonoBehaviour
 
         if (Physics.Raycast(ray, out hitInfo, detectionRange))
         {
+            print("Object detected" + hitInfo.collider.name);
             if (hitInfo.collider.tag == "Player")
             {
-
+                
                 currentState = MauraderStates.CHASE;
             }
 

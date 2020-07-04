@@ -52,8 +52,8 @@ MonoBehaviour:
   basicSpeed: 0
   chaseSpeed: 10
   attackDMG: 1
-  detectionRange: 40
-  attackRange: 15
+  detectionRange: 30
+  attackRange: 3.5
   currentState: 0
   wayPoints: []
   attackhitbox: {fileID: 8818072543581892550, guid: 25380924ce3390644aad47f4ff0bacc2,
@@ -845,11 +845,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1935316067993149294}
     m_Modifications:
-    - target: {fileID: 5080046847582690653, guid: 035e26e9ba6b9a34ebde3f8b30887f1d,
-        type: 3}
-      propertyPath: m_Name
-      value: Alien Blood
-      objectReference: {fileID: 0}
     - target: {fileID: 5274379303186939683, guid: 035e26e9ba6b9a34ebde3f8b30887f1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -904,6 +899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5080046847582690653, guid: 035e26e9ba6b9a34ebde3f8b30887f1d,
+        type: 3}
+      propertyPath: m_Name
+      value: Alien Blood
       objectReference: {fileID: 0}
     - target: {fileID: 3015648634738923083, guid: 035e26e9ba6b9a34ebde3f8b30887f1d,
         type: 3}
