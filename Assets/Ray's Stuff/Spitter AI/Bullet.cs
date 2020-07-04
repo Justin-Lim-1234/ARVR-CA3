@@ -16,4 +16,19 @@ public class Bullet : MonoBehaviour
     {
         gameObject.transform.Translate(0, 0, Speed);
     }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            Debug.Log("Spit hit player");
+            PlayerController pc = GetComponent<PlayerController>();
+            if (!pc.shieldUp)
+            {
+                pc.TakeDamage(15);
+            }
+
+        }
+
+    }
 }

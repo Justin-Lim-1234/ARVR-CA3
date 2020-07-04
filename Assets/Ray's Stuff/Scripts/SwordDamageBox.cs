@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SwordDamageBox : MonoBehaviour
 {
-    public int SwordDps = 30;
+    public int SwordDps = 20;
 
 
     void OnTriggerEnter(Collider col)
