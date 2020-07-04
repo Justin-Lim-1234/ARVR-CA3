@@ -24,7 +24,7 @@ public class AttackTrigger : MonoBehaviour
             if (collision.gameObject.tag == "Player")
             {
                 print("Player has taken damage");
-                PlayerController pc = GetComponent<PlayerController>();
+                PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
                 pc.TakeDamage(20);
                 count = 0;
 

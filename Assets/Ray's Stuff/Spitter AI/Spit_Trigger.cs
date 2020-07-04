@@ -20,6 +20,8 @@ public class Spit_Trigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
+            pc.TakeDamage(attackDmg);
             print("Player has taken damage from spit");
             Destroy(this.gameObject);
 
