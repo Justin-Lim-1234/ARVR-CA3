@@ -17,19 +17,16 @@ public class AttackTrigger : MonoBehaviour
         
     }
 
-    void OnCollisionStay(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        if (count > 0)
-        {
+        //if (count > 0)
+        //{
             if (collision.gameObject.tag == "Player")
             {
                 print("Player has taken damage");
                 PlayerController pc = GetComponent<PlayerController>();
-                if (!pc.shieldUp)
-                {
-                    pc.TakeDamage(20);
-                    count = 0;
-                }
+                pc.TakeDamage(20);
+                count = 0;
 
             }
             else
@@ -39,7 +36,7 @@ public class AttackTrigger : MonoBehaviour
             }
             
 
-        }
+        //}
        
     }
 }

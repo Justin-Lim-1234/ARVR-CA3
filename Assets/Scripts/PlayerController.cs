@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public GameObject cam;
-
-    float horizontalInput;
-    float verticalInput;
-
-    public float moveSpeed = 5f;
+    
     public float health = 100f;
     public bool isDead = false;
 
@@ -17,8 +12,6 @@ public class PlayerController : MonoBehaviour
     public float energyChargeCD = 1.5f;
     public float energyUse = 20f;
     public bool shieldUp = false;
-
-    public CharacterController cc;
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +22,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("LeftTrackpadHorizontal");
-        verticalInput = Input.GetAxis("LeftTrackpadVertical");
-
         HealthManager();
         ShieldEnergy();
-    }
-
-    void FixedUpdate()
-    {
-        Quaternion rot = Quaternion.Euler(0, cam.transform.rotation.eulerAngles.y, 0);
-        Vector3 move = rot * new Vector3(horizontalInput, 0, verticalInput);
-        cc.Move(move * moveSpeed * Time.deltaTime);
     }
 
     private void ShieldEnergy()
@@ -60,9 +43,14 @@ public class PlayerController : MonoBehaviour
             shieldUp = false;
         }
 
-        if (!shieldUp && energyChargeCD <= 0)
+        if (!shieldUp && energyChargeCD <= 0 && triggerLeft < 0.9f)
         {
             energy += energyUse * Time.deltaTime;
+
+            if (energy >= 50)
+            {
+                energy = 50;
+            }
         }
 
         else

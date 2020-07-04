@@ -8,8 +8,8 @@ public class UIManager : MonoBehaviour
     public PlayerController pc;
 
     public GameObject shieldfx;
-    public Slider healthbar;
-    public Slider energybar;
+    public Image healthbar;
+    public Image energybar;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +20,8 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthbar.value = pc.health / 100;
-        energybar.value = pc.energy / 100;
+        healthbar.fillAmount = pc.health / 100;
+        energybar.fillAmount = pc.energy / 50;
 
         if (pc.shieldUp)
         {
