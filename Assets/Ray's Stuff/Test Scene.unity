@@ -119,6 +119,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1935316067993149293, guid: 564f8cf681aaf4848923816cf664669f,
+        type: 3}
+      propertyPath: m_Name
+      value: Maurader
+      objectReference: {fileID: 0}
     - target: {fileID: 1935316067993149294, guid: 564f8cf681aaf4848923816cf664669f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -173,11 +178,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1935316067993149293, guid: 564f8cf681aaf4848923816cf664669f,
-        type: 3}
-      propertyPath: m_Name
-      value: Maurader
       objectReference: {fileID: 0}
     - target: {fileID: 1935316067993149295, guid: 564f8cf681aaf4848923816cf664669f,
         type: 3}
@@ -643,6 +643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Failsafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421634933977555695, guid: f79234fbab9bc4d4d9e853d139efe41a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3760140537284334892, guid: f79234fbab9bc4d4d9e853d139efe41a,
         type: 3}
