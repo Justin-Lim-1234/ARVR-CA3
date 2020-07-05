@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        pauseMenu.SetActive(pause);
     }
 
     // Update is called once per frame
@@ -45,5 +45,10 @@ public class UIManager : MonoBehaviour
         {
             shieldfx.SetActive(pc.shieldUp);
         }
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("test");
     }
 }
