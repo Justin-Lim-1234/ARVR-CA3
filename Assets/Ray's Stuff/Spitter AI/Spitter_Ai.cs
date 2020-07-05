@@ -49,7 +49,7 @@ public class Spitter_Ai : MonoBehaviour
         navMeshAgent = this.GetComponent<NavMeshAgent>();
         if (Player == null)
         {
-            print("Unable to find Player tag in scene, Please Assign player tag to an object.");
+            //print("Unable to find Player tag in scene, Please Assign player tag to an object.");
 
         }
         currenthealth = health.currenthealth;
@@ -104,7 +104,7 @@ public class Spitter_Ai : MonoBehaviour
         if (wayPoints.Length <= 0)
         {
             currentState = MauraderStates.IDLE;
-            print("Unable to find waypoints on this entity: " + this.name);
+            //print("Unable to find waypoints on this entity: " + this.name);
 
         }
         else
@@ -126,7 +126,7 @@ public class Spitter_Ai : MonoBehaviour
         if (wayPoints.Length <= 0)
         {
             currentState = MauraderStates.IDLE;
-            print("Unable to find waypoints on this entity: " + this.name);
+            //print("Unable to find waypoints on this entity: " + this.name);
 
         }
         else

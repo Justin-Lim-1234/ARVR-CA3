@@ -23,10 +23,10 @@ public class Bullet : MonoBehaviour
         {
             Debug.Log("Spit hit player");
             PlayerController pc = GetComponent<PlayerController>();
-            if (!pc.shieldUp)
-            {
+            //if (!pc.shieldUp)
+            //{
                 pc.TakeDamage(15);
-            }
+            //}
 
         }
 

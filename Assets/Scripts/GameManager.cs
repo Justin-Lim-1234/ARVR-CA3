@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public PlayerController pc;
+    public bool pause = false;
     public bool gameOver = false;
     public float numOfAliens;
 
@@ -19,6 +20,13 @@ public class GameManager : MonoBehaviour
     {
         if (!gameOver)
         {
+            if (Input.GetButtonDown("LeftGripPress"))
+            {
+                pause = !pause;
+                pc.shieldUp = pause;
+
+            }
+
             numOfAliens = GameObject.FindGameObjectsWithTag("Enemy").Length;
 
             if (numOfAliens <= 0 || pc.isDead)

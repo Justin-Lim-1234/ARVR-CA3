@@ -8,35 +8,40 @@ public class AttackTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void OnCollisionEnter(Collision collision)
     {
         //if (count > 0)
         //{
-            if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
+        {
+            print("Player has taken damage");
+            PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
+
+            if (!pc.shieldUp)
             {
-                print("Player has taken damage");
-                PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
                 pc.TakeDamage(20);
-                count = 0;
-
             }
-            else
-            {
-                print("Unable to find object");
 
-            }
-            
+            //count = 0;
+
+        }
+        else
+        {
+            print("Unable to find object");
+
+        }
+
 
         //}
-       
+
     }
 }
