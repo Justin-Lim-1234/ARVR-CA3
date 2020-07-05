@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     public float energy = 100f;
     public float energyChargeCD = 1.5f;
-    public float energyUse = 20f;
+    public float energyUse = 25f;
     public bool shieldUp = false;
 
     // Start is called before the first frame update
