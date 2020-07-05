@@ -290,7 +290,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Femur
-    second: {fileID: 2100000, guid: d57f7adebd6059b4784425c7265ba330, type: 2}
+    second: {fileID: 2100000, guid: 1bb35206fb4aae449a90a764998ac7f3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -310,7 +310,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Groin Screws
-    second: {fileID: 2100000, guid: 3ae448bdd428e8b4aad9006ef567cdd9, type: 2}
+    second: {fileID: 2100000, guid: 1bb35206fb4aae449a90a764998ac7f3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -345,7 +345,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shoulders
-    second: {fileID: 2100000, guid: 0fd6f93425e4bba43a047507e9f3461a, type: 2}
+    second: {fileID: 2100000, guid: 1bb35206fb4aae449a90a764998ac7f3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
