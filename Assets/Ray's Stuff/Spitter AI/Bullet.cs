@@ -21,14 +21,20 @@ public class Bullet : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            Destroy(gameObject);
             Debug.Log("Spit hit player");
             PlayerController pc = GetComponent<PlayerController>();
             if (!pc.shieldUp)
             {
-                pc.TakeDamage(15);
+                pc.TakeDamage(10);
             }
 
         }
 
+        if (col.gameObject.layer == 12)
+        {
+            Destroy(gameObject);
+
+        }
     }
 }

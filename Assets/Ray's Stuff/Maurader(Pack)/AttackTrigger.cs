@@ -28,7 +28,7 @@ public class AttackTrigger : MonoBehaviour
 
             if (!pc.shieldUp)
             {
-                pc.TakeDamage(20);
+                pc.TakeDamage(15);
             }
 
             //count = 0;
