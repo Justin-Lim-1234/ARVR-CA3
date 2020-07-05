@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("Spit hit player");
-            PlayerController pc = GetComponent<PlayerController>();
+            PlayerController pc = col.gameObject.GetComponent<PlayerController>();
             if (!pc.shieldUp)
             {
                 pc.TakeDamage(10);
